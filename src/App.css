@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-grocery{
+    background-color: white;
+    width: 500px;
+    min-height: 50vh;
+    border-radius: 10px;
+    text-align: center;
+}
+.container-header{
+    text-align: center;
+    padding-top: 20px;
+}
+.container-header h2{
+    font-weight: 500;
+}
+.form-control{
+    padding-top: 20px;
+}
+.input-text{
+    width: 60%;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: rgb(201, 209, 206);
+    border: none;
+}
+.input-text:focus{
+    outline: none;
+}
+.input-submit{
+    width: 60px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: skyblue;
+    border: none;
+    color: white;
+}
+.form-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 10px 70px;
+}
+.list:focus,
+.unlist:focus{
+    outline: none;
+}
+.list{
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+}
+.unlist{
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+    text-decoration:line-through;
+    color: red;
+}
+.completed-icon{
+    cursor: pointer;
+    margin-right: 3px;
+}
+.edit-icon{
+    cursor: pointer;
+}
+.delete-icon{
+    cursor: pointer;
+}
+.clear-items{
+    cursor: pointer;
+}
+.danger{
+    background-color: #BB2D3B;
+    border-radius: 5px;
+}
+.success{
+    background-color: #157347;
+    border-radius: 5px;
+}
+.info{
+    background-color: #31D2F2;
+    border-radius: 5px;
+}
+.alert{
+    padding: 20px 50px 0 50px;
+    
+}
+.clear-items{
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #FFCA2C;
+    border: none;
+    color: black;
+    margin-bottom: 15px;
+}
